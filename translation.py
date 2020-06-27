@@ -1,12 +1,13 @@
 class Translation(object):
     START_TEXT = """Hello,
-This is a Telegram File convert(tg fle to streamimg file) Bot!
+This is a Telegram File convert (tg fle to streamimg file) Bot!
 
-<code>You can convert any Telegram Document, using this bot! With custom thumbnail</code>
+<code>You can convert any Telegram Document to streaming video, using this bot! With custom thumbnail</code>
    
    ☛ <b> /help for more details......</b>
    
-   Check my other (cloned)bot <b>@MyTestBotZ</b> """
+   
+   Check my other (cloned)bot ☛ <b>@MyTestBotZ</b> """
     ABS_TEXT = " Please don't be selfish."
     BANNED_USER_TEXT = "you are banned"
     UPGRADE_TEXT = "No upgrade plan 🥰"
@@ -30,8 +31,7 @@ This is a Telegram File convert(tg fle to streamimg file) Bot!
 Telegram ID: <code>{}</code>
 Plan name: <b> Premium Version </b>
 Expires on: {}"""
-    HELP_USER = """I can do:
-👉 <a href="https://telegram.dog/FileToStreambot">Convert To Streamable video any telegram file</a>
+    HELP_USER = """I can do: <a href="https://telegram.dog/FileToStreambot">Convert To Streamable video any telegram file</a>
 
 ☛ send a telegram file
 ☛ Reply that file to   <b> /convert2video </b>
