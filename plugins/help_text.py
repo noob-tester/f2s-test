@@ -77,6 +77,5 @@ async def start(bot, update):
                     InlineKeyboardButton('💡  Source Code', url='https://github.com/TGExplore/Screenshot-Bot'),
                     InlineKeyboardButton('👨  Master', url='https://t.me/odbots')
                 ]
-            ]
-        
+            ]     
     )
