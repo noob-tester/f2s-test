@@ -11,15 +11,15 @@ This is a Telegram File convert (tg fle to streamimg file) Bot!
    Check my other (cloned) bot  ☛ <b>@MyTestBotZ</b> """
     ABS_TEXT = " Please don't be selfish."
     BANNED_USER_TEXT = "you are banned"
-    UPGRADE_TEXT = """○ My Name : `Converter bot`
+    UPGRADE_TEXT = """○ My Name : <code>Converter bot</code>
 ○ Creator : <a href="https://telegram.dog/oo7robot">This Person</a>
-○ Credits : `Everyone in this journey`
-○ Language : Python3
-○ Library : [Pyrogram asyncio 0.16.1](https://docs.pyrogram.org/)
-○ Original Source Developed by : X_ROW
-○ Source Code : 👉 [Click Here](https://t.me/x_row/5)
-○ Server : Heroku
-○ Build Status : beta v1"""
+○ Credits : <code>Everyone in this journey</code>
+○ Language : <code>Python3</code>
+○ Library : <a href="https://docs.pyrogram.org/">Pyrogram asyncio 0.16.1</a>
+○ Cloned From : <b>X_ROW</b> Source code
+○ Source Code : ☛ <a href="https://t.me/x_row/5">click here</a>
+○ Server : <code>Heroku</code>
+○ Build Status : <code>beta v1</code>"""
     DOWNLOAD_START = """Analysing File
     please wait...🙇🙇🙇  
     
@@ -38,8 +38,8 @@ This is a Telegram File convert (tg fle to streamimg file) Bot!
     CURENT_PLAN_DETAILS = """Current plan details
 --------
 Telegram ID: <code>{}</code>
-Plan name: <b> Premium Version </b>
-Expires on: {}"""
+Plan name: <b> free user </b>
+Expires on: Until my Death"""
     HELP_USER = """I can do: <a href="https://telegram.dog/FileToStreambot">Convert To Streamable video any telegram file</a>
 
 ☛ send a telegram file
