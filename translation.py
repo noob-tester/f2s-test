@@ -3,8 +3,9 @@ class Translation(object):
 This is a Telegram File convert(tg fle to streamimg file) Bot!
 
 You can convert any Telegram Document, using this bot! With custom thumbnail
-     
-    """
+   
+   
+   Check my other (cloned)bot @MyTestBotZ """
     ABS_TEXT = " Please don't be selfish."
     BANNED_USER_TEXT = "you are banned"
     UPGRADE_TEXT = "No upgrade plan 🥰"
@@ -12,14 +13,14 @@ You can convert any Telegram Document, using this bot! With custom thumbnail
     please wait...🙇🙇🙇  """
     UPLOAD_START = "Converting & Uploading 📤"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "https://t.me/FileToStreamBot"
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "Thanks for using me \nWanna check my other botz 👉 @MyTestBotZ"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \nUploaded in {} seconds."
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
     SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in next 24 hr"
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
     SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
-    CUSTOM_CAPTION_UL_FILE = ""
+    CUSTOM_CAPTION_UL_FILE = "Converted by @FileToStreamBot"
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
     CURENT_PLAN_DETAILS = """Current plan details
 --------
