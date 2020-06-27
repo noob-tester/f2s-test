@@ -16,7 +16,7 @@ This is a Telegram File convert(tg fle to streamimg file) Bot!
     """
     UPLOAD_START = "Converting & Uploading 📤"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "Thanks for using me. \n Now you can send new File \n\nWanna check my other botz 👉 @MyTestBotZ"
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "Thanks for using me. \n Now you can send new File \n\nWanna check my other botz☛ @MyTestBotZ"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \nUploaded in {} seconds."
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
     SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in next 24 hr"
