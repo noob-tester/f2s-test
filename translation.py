@@ -8,8 +8,9 @@ You can convert any Telegram Document, using this bot! With custom thumbnail
     ABS_TEXT = " Please don't be selfish."
     BANNED_USER_TEXT = "you are banned"
     UPGRADE_TEXT = "No upgrade plan 🥰"
-    DOWNLOAD_START = "trying to download"
-    UPLOAD_START = "trying to upload"
+    DOWNLOAD_START = """Analysing File
+    please wait...🙇🙇🙇  """
+    UPLOAD_START = "Converting & Uploading 📤"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     AFTER_SUCCESSFUL_UPLOAD_MSG = "https://t.me/FileToStreamBot"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \nUploaded in {} seconds."
@@ -26,7 +27,7 @@ Telegram ID: <code>{}</code>
 Plan name: <b> Premium Version </b>
 Expires on: {}"""
     HELP_USER = """I can do:
-👉 <a href="https://telegram.dog/FileToStreambot">Convert To Streamable video any telegram file</a>-------------------------------------------------------------------------
+👉 <a href="https://telegram.dog/FileToStreambot">Convert To Streamable video any telegram file</a>
 
 """
 
