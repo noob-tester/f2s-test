@@ -65,7 +65,7 @@ async def start(bot, update):
     TRChatBase(update.from_user.id, update.text, "/start")
     await bot.send_message(
         chat_id=update.chat.id,
-        text="Hi there {m.from_user.first_name}.\n\nI'm Screenshot Generator Bot. I can provide screenshots from your video files with out downloading the entire file (almost instantly). For more details check /help.",
+        text="""Hi there {m.from_user.first_name}.\n\nI'm Screenshot Generator Bot. I can provide screenshots from your video files with out downloading the entire file (almost instantly). For more details check /help.""",
         quote=True,
         reply_markup=InlineKeyboardMarkup(
             [
