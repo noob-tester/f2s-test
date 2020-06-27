@@ -2,15 +2,18 @@ class Translation(object):
     START_TEXT = """Hello,
 This is a Telegram File convert(tg fle to streamimg file) Bot!
 
-You can convert any Telegram Document, using this bot! With custom thumbnail
+<code>You can convert any Telegram Document, using this bot! With custom thumbnail</code>
    
+   ☛ <b> /help for more details......</b>
    
-   Check my other (cloned)bot @MyTestBotZ """
+   Check my other (cloned)bot <b>@MyTestBotZ</b> """
     ABS_TEXT = " Please don't be selfish."
     BANNED_USER_TEXT = "you are banned"
     UPGRADE_TEXT = "No upgrade plan 🥰"
     DOWNLOAD_START = """Analysing File
-    please wait...🙇🙇🙇  """
+    please wait...🙇🙇🙇  
+    
+    """
     UPLOAD_START = "Converting & Uploading 📤"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     AFTER_SUCCESSFUL_UPLOAD_MSG = "Thanks for using me. \n Now you can send new File \n\nWanna check my other botz 👉 @MyTestBotZ"
@@ -29,6 +32,11 @@ Plan name: <b> Premium Version </b>
 Expires on: {}"""
     HELP_USER = """I can do:
 👉 <a href="https://telegram.dog/FileToStreambot">Convert To Streamable video any telegram file</a>
+
+☛ send a telegram file
+☛ Reply that file to   <b> /convert2video </b>
+
+    wait for bot Respond............🙇🙇🙇
 
 """
 
