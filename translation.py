@@ -6,10 +6,8 @@ This is a Telegram File convert (tg fle to streamimg file) Bot!
    
    ☛ <b> /help for more details......</b>
    
-   <form action="https://google.com">
-    <input type="submit" value="Go to Google" />
-</form>
-<input type="button" onclick="location.href='https://google.com';" value="Go to Google" />
+ 
+   Created by this <a herf="https://telegram.dog/oo7robot">Person</a>
    Check my other (cloned)bot ☛ <b>@MyTestBotZ</b> """
     ABS_TEXT = " Please don't be selfish."
     BANNED_USER_TEXT = "you are banned"
