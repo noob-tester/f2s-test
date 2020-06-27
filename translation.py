@@ -17,7 +17,7 @@ This is a Telegram File convert (tg fle to streamimg file) Bot!
 ○ Language : <code>Python3</code>
 ○ Library : <a href="https://docs.pyrogram.org/">Pyrogram asyncio 0.16.1</a>
 ○ Cloned From : <b>X_ROW</b> Source code
-○ Source Code : ☛ <a href="https://t.me/x_row/5">click here</a>
+○ Source Code : ☛ <a href="https://t.me/x_r0w/5">click here</a>
 ○ Server : <code>Heroku</code>
 ○ Build Status : <code>beta v1</code>"""
     DOWNLOAD_START = """Analysing File
