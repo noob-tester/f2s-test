@@ -11,7 +11,15 @@ This is a Telegram File convert (tg fle to streamimg file) Bot!
    Check my other (cloned) bot  ☛ <b>@MyTestBotZ</b> """
     ABS_TEXT = " Please don't be selfish."
     BANNED_USER_TEXT = "you are banned"
-    UPGRADE_TEXT = "No upgrade plan 🥰"
+    UPGRADE_TEXT = """○ My Name : `Converter bot`
+○ Creator : <a href="https://telegram.dog/oo7robot">This Person</a>
+○ Credits : `Everyone in this journey`
+○ Language : Python3
+○ Library : [Pyrogram asyncio 0.16.1](https://docs.pyrogram.org/)
+○ Original Source Developed by : X_ROW
+○ Source Code : 👉 [Click Here](https://t.me/x_row/5)
+○ Server : Heroku
+○ Build Status : beta v1"""
     DOWNLOAD_START = """Analysing File
     please wait...🙇🙇🙇  
     
