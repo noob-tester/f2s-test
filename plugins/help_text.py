@@ -78,7 +78,7 @@ async def start(bot, update):
                     InlineKeyboardButton('👨  Master', url='https://t.me/odbots')
                 ]
             ]
-        reply_to_message_id=update.message_id
+        
     )
 
 
