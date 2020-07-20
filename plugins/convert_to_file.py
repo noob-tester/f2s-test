@@ -30,7 +30,7 @@ from hachoir.parser import createParser
 from PIL import Image
 
 
-@pyrogram.Client.on_message(pyrogram.Filters.command(["convert2video"]))
+@pyrogram.Client.on_message(pyrogram.Filters.command(["convert2file"]))
 async def convert_to_video(bot, update):
     if update.from_user.id in Config.BANNED_USERS:
         await bot.send_message(
@@ -114,10 +114,10 @@ async def convert_to_video(bot, update):
                 chat_id=update.chat.id,
                 video=the_real_download_location,
                 caption=description,
-                duration=duration,
-                width=width,
-                height=height,
-                supports_streaming=True,
+               # duration=duration,
+               # width=width,
+                # height=height,
+               # supports_streaming=True,
                 # reply_markup=reply_markup,
                 thumb=thumb_image_path,
                 reply_to_message_id=update.reply_to_message.message_id,
