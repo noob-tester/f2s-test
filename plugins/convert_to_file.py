@@ -52,7 +52,7 @@ async def convert_to_video(bot, update):
         the_real_download_location = await bot.download_media(
             message=update.reply_to_message,
             file_name=download_location,
-            progress=progress_for_pyrogram,
+            progress=progrezz_for_pyrogram,
             progress_args=(
                 Translation.DOWNLOAD_START,
                 a,
