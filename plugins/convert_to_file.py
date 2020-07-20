@@ -39,7 +39,7 @@ async def convert_to_video(bot, update):
             reply_to_message_id=update.message_id
         )
         return
-    TRChatBase(update.from_user.id, update.text, "converttovideo")
+    TRChatBase(update.from_user.id, update.text, "converttofile")
     if update.reply_to_message is not None:
         description = Translation.CUSTOM_CAPTION_UL_FILE
         download_location = Config.DOWNLOAD_LOCATION + "/"
@@ -110,9 +110,9 @@ async def convert_to_video(bot, update):
             # https://pillow.readthedocs.io/en/3.1.x/reference/Image.html#create-thumbnails
             # try to upload file
             c_time = time.time()
-            await bot.send_video(
+            await bot.send_document(
                 chat_id=update.chat.id,
-                video=the_real_download_location,
+                document=the_real_download_location,
                 caption=description,
                # duration=duration,
                # width=width,
