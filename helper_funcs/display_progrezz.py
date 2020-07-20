@@ -22,7 +22,7 @@ else:
 from translation import Translation
 
 
-async def progress_for_pyrogram(
+async def progrezz_for_pyrogram(
     current,
     total,
     ud_type,
